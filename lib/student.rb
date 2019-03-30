@@ -15,7 +15,7 @@ class Student
 
   def self.create_from_collection(students_array)
     students_array.collect do |student|
-      student
+      binding.pry
     end
   end
 
